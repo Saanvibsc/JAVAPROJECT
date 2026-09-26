@@ -1,0 +1,8 @@
+{
+  "name": "LoanFlow - Enterprise Loan Application System",
+  "description": "Comprehensive loan origination, credit evaluation, amortization schedule calculator, and borrower servicing system.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
