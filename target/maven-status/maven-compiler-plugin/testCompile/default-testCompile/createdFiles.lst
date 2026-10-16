@@ -1,0 +1,5 @@
+com/loanapp/CredentialGeneratorTest.class
+com/loanapp/CibilAndInterestTest.class
+com/loanapp/DatabaseIntegrationTest.class
+com/loanapp/ValidationUtilTest.class
+com/loanapp/EMICalculatorTest.class

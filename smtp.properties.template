@@ -1,0 +1,27 @@
+# ==============================================================================
+# SMTP JavaMail Configuration Template (Stages 1-5)
+# Set these environment variables or pass as JVM system properties:
+# ==============================================================================
+
+# SMTP Server Host (default: smtp.gmail.com)
+SMTP_HOST=smtp.gmail.com
+
+# SMTP Port (587 for STARTTLS or 465 for SSL)
+SMTP_PORT=587
+
+# Your full email address
+SMTP_USERNAME=your_email@gmail.com
+
+# Your Google App Password (not your Gmail login password)
+# Generate from: Google Account -> Security -> 2-Step Verification -> App passwords
+SMTP_PASSWORD=your_16_character_app_password
+
+# From display email address
+SMTP_FROM=your_email@gmail.com
+
+# Database Connection Settings (Optional overrides; defaults to localhost:3306)
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=loan_system_db
+DB_USER=root
+DB_PASSWORD=root

@@ -1,13 +1,8 @@
 {
-stage3-saanvi
   "name": "LoanFlow - Enterprise Loan Application System",
-  "description": "Comprehensive loan origination, credit evaluation, amortization schedule calculator, and borrower servicing system.",
+  "description": "Console-based Core Java Loan Application Management System with JDBC, MySQL, SMTP JavaMail, PAN/CIBIL credit scoring, and EMI amortization servicing across Stages 1-5.",
   "permissions": [],
   "capabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-
-  "name": "Stage 2 Admin Management System (Core Java + JDBC)",
-  "description": "Console-based Stage 2 Admin Management System in Core Java with JDBC, PreparedStatement, MySQL schema, audit logging, email notifications, and interactive terminal simulator.",
-  "requestFramePermissions": []
- main
+  ]
 }

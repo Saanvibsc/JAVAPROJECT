@@ -1,0 +1,5 @@
+/app/applet/src/test/java/com/loanapp/CredentialGeneratorTest.java
+/app/applet/src/test/java/com/loanapp/DatabaseIntegrationTest.java
+/app/applet/src/test/java/com/loanapp/CibilAndInterestTest.java
+/app/applet/src/test/java/com/loanapp/ValidationUtilTest.java
+/app/applet/src/test/java/com/loanapp/EMICalculatorTest.java
