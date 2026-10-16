@@ -4,6 +4,8 @@ A complete, production-grade **Core Java Console Application** built strictly us
 
 All five stages specified in the assignment have been unified into a single coherent Java codebase with **zero reliance on TypeScript, JavaScript, React, Node.js, HTML, CSS, or Spring Boot**.
 
+The application runs in a terminal/command prompt. It has no browser-based interface; start it with Maven or Java as shown below. MySQL is required for account, loan, and admin data.
+
 ---
 
 ## 📋 System Architecture & Stages Overview
@@ -144,8 +146,8 @@ mvn clean compile
 # 2. Run all unit and integration tests (19 tests)
 mvn test
 
-# 3. Run the console application directly
-mvn exec:java -Dexec.mainClass="com.loanapp.Main"
+# 3. Run the console application directly in the terminal
+mvn exec:java
 ```
 
 ### Method 2: Direct Java Compilation (`javac` / `java`)
@@ -159,6 +161,8 @@ javac -cp "lib/*:src/main/java" -d target/classes src/main/java/com/loanapp/**/*
 # Run
 java -cp "target/classes:lib/*" com.loanapp.Main
 ```
+
+The Maven `exec` plugin is configured to start `com.loanapp.Main`. In Replit, use the **Start application** console workflow or run `mvn exec:java` in the Shell. No browser preview is used.
 
 ---
 

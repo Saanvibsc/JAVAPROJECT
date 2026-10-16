@@ -6,7 +6,6 @@
   "scripts": {
     "build": "mvn clean test-compile",
     "test": "mvn test",
-    "start": "mvn exec:java -Dexec.mainClass=\"com.loanapp.Main\"",
-    "dev": "node dev_console_bridge.cjs"
+    "start": "mvn exec:java -Dexec.mainClass=\"com.loanapp.Main\""
   }
 }
