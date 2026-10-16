@@ -1,0 +1,5 @@
+{
+  "name": "Stage 2 Admin Management System (Core Java + JDBC)",
+  "description": "Console-based Stage 2 Admin Management System in Core Java with JDBC, PreparedStatement, MySQL schema, audit logging, email notifications, and interactive terminal simulator.",
+  "requestFramePermissions": []
+}
